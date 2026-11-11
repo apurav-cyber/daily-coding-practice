@@ -8,13 +8,13 @@ total_marks = maths+science+english
 print("total marks",total_marks)
 percentage = total_marks/3
 print("percentage of student",percentage)
-
+grade=0
 
 if percentage>=90:
-    garde = "A+ grade"
+    grade = "A+ grade"
     sc ="gold scolarship"
 elif percentage>=80:
-    garde="A grade"
+    grade="A grade"
     sc = "silver scholar ship "
 elif percentage>=70:
     grade="B grade"
